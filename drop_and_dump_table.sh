@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Variables
+#Variables
 HOST={empty}
 DATABASE={empty}
 HOST_LOG_IN='-u {empty} -p{empty}'
@@ -16,12 +16,11 @@ main () {
 	echo -e "\nDumping $@"
 	dump $@
 }
-
 dump () {
 	mysqldump -h ${HOST} ${HOST_LOG_IN} ${DATABASE} $@ | mysql ${LOCAL_LOG_IN} ${DATABASE}
 }
 
-# Start of script
+#Start of script
 echo "Starting Script"
 
 for i in "$@"
