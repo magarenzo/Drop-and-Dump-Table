@@ -7,13 +7,13 @@ Drop table and dump data from external database to local for any amount of user-
 
 ---
 
-<h3>Output:</h3>
+## Output:
 
 Starting Script<br><br>Dropping Table<br><br>Dumping Table<br><br>Script Completed
 
 ---
 
-<h3>Variables:</h3>
+## Variables:
 
 Make sure to replace each `{empty}` field in the script
 
@@ -25,6 +25,9 @@ Make sure to replace each `{empty}` field in the script
 
 ---
 
-<h3>Necessary Installations:</h3>
+## Necessary Installations:
 
 * [`MySQL`](https://dev.mysql.com/doc/mysql-getting-started/en/)
+
+## Owner
+Michael A. Agarenzo
