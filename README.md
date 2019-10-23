@@ -9,8 +9,6 @@ Drop table and dump data from external database to local for any amount of user-
 
 Starting Script<br><br>Dropping Table<br><br>Dumping Table<br><br>Script Completed
 
----
-
 ## Variables:
 
 Make sure to replace each `{empty}` field in the script
@@ -20,8 +18,6 @@ Make sure to replace each `{empty}` field in the script
 * HOST_LOG_IN='-u username -ppassword'
 * LOCAL_DATABASE=nameOfLocalDatabase
 * LOCAL_LOG_IN='-u username -ppassword'
-
----
 
 ## Necessary Installations:
 
