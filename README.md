@@ -5,8 +5,6 @@ Drop table and dump data from external database to local for any amount of user-
 
 [*drop_and_dump_table.sh*](https://github.com/magarenzo/drop-dump-table/blob/master/drop_and_dump_table.sh) takes in any amount of table names, drops those tables from local, and dumps data from those tables from a host
 
----
-
 ## Output:
 
 Starting Script<br><br>Dropping Table<br><br>Dumping Table<br><br>Script Completed
