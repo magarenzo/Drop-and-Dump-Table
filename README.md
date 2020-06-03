@@ -1,15 +1,16 @@
-# drop-dump-table
+# Drop and Dump Table
+
 Drop table and dump data from external database to local for any amount of user-specified tables
 
----
+## About
 
-[*drop_and_dump_table.sh*](https://github.com/magarenzo/drop-dump-table/blob/master/drop_and_dump_table.sh) takes in any amount of table names, drops those tables from local, and dumps data from those tables from a host
+Take in any amount of table names, drops those tables from local, and dumps data from those tables from a host
 
-## Output:
+## Output
 
 Starting Script<br><br>Dropping Table<br><br>Dumping Table<br><br>Script Completed
 
-## Variables:
+## Variables
 
 Make sure to replace each `{empty}` field in the script
 
@@ -19,7 +20,7 @@ Make sure to replace each `{empty}` field in the script
 * LOCAL_DATABASE=nameOfLocalDatabase
 * LOCAL_LOG_IN='-u username -ppassword'
 
-## Required Installations:
+## Dependenciy
 
 [`MySQL`](https://dev.mysql.com/doc/mysql-getting-started/en/)
 
