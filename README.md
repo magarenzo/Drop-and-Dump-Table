@@ -20,9 +20,10 @@ Make sure to replace each `{empty}` field in the script
 * LOCAL_DATABASE=nameOfLocalDatabase
 * LOCAL_LOG_IN='-u username -ppassword'
 
-## Dependenciy
+## Dependency
 
 [`MySQL`](https://dev.mysql.com/doc/mysql-getting-started/en/)
 
 ## Owner
+
 Michael A. Agarenzo
