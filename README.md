@@ -27,5 +27,3 @@ Make sure to replace each `{empty}` field in the script
 ## Owner
 
 Michael A. Agarenzo
-
-[&#127867; Buy me a cider, or three!](https://www.buymeacoffee.com/magarenzo)
