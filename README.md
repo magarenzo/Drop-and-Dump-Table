@@ -2,23 +2,33 @@
 
 Drop table and dump data from external database to local for any amount of user-specified tables
 
-## About
+## Overview
 
 Take in any amount of table names, drops those tables from local, and dumps data from those tables from a host
 
-## Output
-
-Starting Script<br><br>Dropping Table<br><br>Dumping Table<br><br>Script Completed
-
-## Variables
+## Using the Script
 
 Make sure to replace each `{empty}` field in the script
 
-* HOST=hostname.where.database.is
-* HOST_DATABASE=nameOfDatabase
-* HOST_LOG_IN='-u username -ppassword'
-* LOCAL_DATABASE=nameOfLocalDatabase
-* LOCAL_LOG_IN='-u username -ppassword'
+```sql
+HOST=hostname.where.database.is
+HOST_DATABASE=nameOfDatabase
+HOST_LOG_IN='-u username -ppassword'
+LOCAL_DATABASE=nameOfLocalDatabase
+LOCAL_LOG_IN='-u username -ppassword'
+```
+
+### Output
+
+```
+Starting Script
+
+Dropping Table
+
+Dumping Table
+
+Script Completed
+```
 
 ## Dependency
 
@@ -26,4 +36,4 @@ Make sure to replace each `{empty}` field in the script
 
 ## Owner
 
-Michael A. Agarenzo
+[Michael A. Agarenzo](https://magarenzo.com)
